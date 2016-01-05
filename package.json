@@ -1,0 +1,42 @@
+{
+  "name": "we-project-groups",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./app.js",
+  "scripts": {
+    "dev": "node app.js --dev",
+    "verbose": "node app.js --prod",
+    "prod": "node app.js --prod",
+    "deps": "npm install && bower install",
+    "start": "node app.js",
+    "build": "gulp build",
+    "test": "NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js",
+    "prepublish": "npm prune"
+  },
+  "dependencies": {
+    "async": "^1.5.1",
+    "lodash": "^3.10.1",
+    "we-core": "^0.3",
+    "we-plugin-bootstrap3": "0.3.2",
+    "we-plugin-file": "0.3.20",
+    "we-plugin-group": "wejs/we-plugin-group",
+    "we-plugin-flag": "^1.0.0",
+    "we-plugin-form": "0.3.27",
+    "we-plugin-menu": "0.3.11",
+    "we-plugin-vocabulary": "0.3.20",
+    "we-theme-admin-default": "0.3.12",
+    "we-theme-default": "^0.3.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "mocha": "2.3.4",
+    "sinon": "1.17.2",
+    "supertest": "^1.1.0",
+    "we-gulp-tasks-default": "0.3.0",
+    "we-test-tools": "0.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wejs-examples/we-project-groups.git"
+  }
+}
