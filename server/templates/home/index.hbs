@@ -1,2 +1,302 @@
-<h2>Hello world</h2>
-<p>This is the server/templates/home/index.hbs file</p>
+<span id="fb-root"></span>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<style>
+/* fix facebook btn */
+.fb-like.fb_iframe_widget span {
+  vertical-align: inherit !important;
+}
+</style>
+
+<div id="headerwrap" style="background-color: #16691D;">
+  <div class="container">
+    <div class="row centered">
+      <div id="headerwrap" style="background-color: #16691D;">
+        <div class="container">
+          <div class="row centered">
+            <div class="col-lg-12">
+              <h1><strong>We.js Social Network</strong></h1>
+              <h3>Full-featured social network or forum plugins</h3>
+              <br>
+            </div>
+            <div class="col-lg-2">
+              <h5>Share and organize</h5>
+              <p>Simple and powerful <stong>social network</stong> with groups,content and topics.<br>
+              Work together with your friends or company</p>
+              <img class="hidden-xs hidden-sm hidden-md" src="/public/theme/we-theme-pratt/img/arrow1.png" alt="An arrow image pointing to example image">
+            </div>
+            <div class="col-lg-8">
+              <img class="img-responsive" src="/public/project/images/example-print.jpg" alt="Event example image">
+            </div>
+            <div class="col-lg-2">
+              <br>
+              <img class="hidden-xs hidden-sm hidden-md" src="/public/theme/we-theme-pratt/img/arrow2.png" alt="An arrow image pointing to example image">
+              <h5>Content <strong>topics</strong></h5>
+              <p>Organize your group in you custom categories with multimedia attachments</p>
+            </div>
+            <div class="col-lg-12">
+              <br>
+              <span>
+                <iframe class="github-btn" frameborder="0" src="http://ghbtns.com/github-btn.html?user=wejs&amp;repo=we-plugin-group&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
+              </span>
+              <span>
+                <script src="https://apis.google.com/js/platform.js" async defer></script>
+                <g:plusone size="medium"></g:plusone>
+              </span>
+              <span class="fb-like" data-width="45px" data-layout="button_count" ></span>
+              <span class="follow-btn">
+                <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.a5bbbb7216610af1306d56b0f28a67d7.en.html#_=1424192283453&amp;dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=we_js&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 240px; height: 20px;"></iframe>
+              </span>
+            </div>
+          </div>
+        </div> <!--/ .container -->
+      </div>
+    </div>
+  </div>
+</div>
+<div id="intro">
+  <div class="container">
+    <div class="row centered">
+      <h1>Features</h1>
+      <p>Built in and extensible features</p>
+      <br>
+      <br>
+      <div class="col-lg-4">
+        <img src="/public/project/images/menu.jpg" alt="An image how represents one menu with links">
+        <h3>Costumizable menu</h3>
+        <p>Every event have menus and links changeable in event administration.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="/public/theme/we-theme-pratt/img/intro02.png"  alt="An image how represents a calendar schendule">
+        <h3>Sessions and Schedule</h3>
+        <p>Add session records in event administration and show in schendule widget.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="/public/project/images/contents-box.jpg" alt="Multiple content types">
+        <h3>Group posts</h3>
+        <p>Share: texts, videos, images and attachments.</p>
+      </div>
+    </div>
+    <div class="row centered">
+      <div class="col-lg-4">
+        <img src="/public/project/images/widgets.jpg" alt="Widgets icon">
+        <h3>Build with widgets</h3>
+        <p>Group widgets allow to add or change page blocks with widget in place API.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="/public/project/images/administrative-interface.jpg" alt="Administrative interface icon">
+        <h3>Administrative interface</h3>
+        <p>Every event have its own administrative interface and managers</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="/public/project/images/register.jpg" alt="User registration icon">
+        <h3>User group joining</h3>
+        <p>Users can join groups and event managers can invite others users.</p>
+      </div>
+    </div>
+    <div class="row centered">
+      <div class="col-lg-4">
+        <img src="/public/project/images/contact_us.jpg" alt="Contact us icon">
+        <h3>Group newsletters</h3>
+        <p>Group managers can send email newsletters to members.</p>
+      </div>
+      <div class="col-lg-4">
+        <img src="/public/project/images/REST-api.jpg" alt="REST API icon">
+        <h3>REST API</h3>
+        <p>Default HTML response is optional, make your custom Single page apps and plug in groups API with angular.js, ember.js, react ...</p>
+      </div>
+      <div class="col-lg-4">
+        <img height="128" src="http://wejs.org/public/plugin/we-core/files/images/logo.png" alt="We.js framework logo">
+        <h3>We.js powered!</h3>
+        <p>Compatible with others <a href="http://wejs.org" target="_blank">We.js</a> themes and plugins.</p>
+      </div>
+
+    </div>
+    <br>
+    <hr>
+    </div> <!--/ .container -->
+</div>
+{{!--
+<div id="video">
+  <div class="container">
+    <div class="row centered">
+      <h1>Screencast</h1>
+      <p>Screencast showing the creation of one event in We.js <a href="https://github.com/wejs/we-plugin-event">events example project</a></p>
+
+      <div class="col-lg-10 col-lg-offset-1">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h31Cl9uD4uU" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr>
+  </div>
+</div>
+ --}}
+{{!--
+<div id="features">
+  <div class="container">
+    <div class="row">
+      <h1 class="centered">Full power to event managers</h1>
+      <br>
+      <br>
+      <div class="col-lg-6 centered">
+        <img class="centered" src="/public/project/images/admin-menu.jpg" alt="Administration menu example">
+      </div>
+
+      <div class="col-lg-6">
+        <h3>Some Features</h3>
+        <br>
+      <!-- ACCORDION -->
+              <div class="accordion ac" id="accordion2">
+                  <div class="accordion-group">
+                      <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                          Register and exports data
+                          </a>
+                      </div><!-- /accordion-heading -->
+                      <div id="collapseOne" class="accordion-body collapse in">
+                          <div class="accordion-inner">
+              <p>Use the event manager pages to register, manage and exports your event contents.</p>
+              </div><!-- /accordion-inner -->
+                      </div><!-- /collapse -->
+                  </div><!-- /accordion-group -->
+                  <br>
+
+                  <div class="accordion-group">
+                      <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                          User registrations and certifications
+                          </a>
+                      </div><!-- /accordion-heading -->
+                      <div id="collapseOne" class="accordion-body collapse in">
+                          <div class="accordion-inner">
+              <p>See all user registrations data and generate user certifications after event end.</p>
+              </div><!-- /accordion-inner -->
+                      </div><!-- /collapse -->
+                  </div><!-- /accordion-group -->
+                  <br>
+
+                   <div class="accordion-group">
+                      <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                          Open source free software!
+                          </a>
+                      </div>
+                      <div id="collapseThree" class="accordion-body collapse">
+                          <div class="accordion-inner">
+              <p>Event features is only a We.js plugin and code is avaible at github (https://github.com/wejs/we-plugin-event) come and help make this project better.</p>
+              </div><!-- /accordion-inner -->
+                      </div><!-- /collapse -->
+                  </div><!-- /accordion-group -->
+                  <br>
+        </div><!-- Accordion -->
+      </div>
+    </div>
+  </div><!--/ .container -->
+</div> --}}
+
+<div id="showcase"  style="background-color: #16691D;">
+  <div class="container">
+    <div class="row">
+      <h1 class="centered">Some Screenshots</h1>
+      <br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <div id="carousel-example-generic" class="carousel slide">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3" class=""></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="/public/project/images/print1.jpg" alt="Example of event project image 1">
+            </div>
+            <div class="item">
+              <img src="/public/project/images/print2.jpg" alt="Example of project image 2">
+            </div>
+{{!--             <div class="item">
+              <img src="/public/project/images/print3.jpg" alt="Event registration example">
+            </div>
+            <div class="item">
+              <img src="/public/project/images/print4.jpg" alt="Video galery example">
+            </div> --}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  </div><!-- /container -->
+</div>
+
+<div id="installation">
+  <div class="container">
+    <div class="row centered">
+      <h1>Installation</h1>
+      <p>Generate a <a href="http://wejs.org" target="_blank">We.js</a> events project</p>
+      <div class="col col-md-12">
+        <h3>1- Install the dependencies, We.js cli and yeoman generator-wejs:</h3>
+        <p>See: <a href="http://wejs.org/docs/we/getstarted.installation">http://wejs.org/docs/we/getstarted.installation</a></p>
+      </div>
+      <div class="col col-md-12">
+        <h3>2- generate your Social Network project:</h3>
+        <p><code>yo wejs:social test</code></p>
+      </div>
+      <div class="col col-md-12">
+        <h3>3- enter in project folder:</h3>
+        <p><code>cd we-project-social-test</code></p>
+      </div>
+      <div class="col col-md-12">
+        <h3>4- Install your project modules:</h3>
+        <p><code>npm install</code></p>
+      </div>
+      <div class="col col-md-12">
+        <h3>5- Load default locales:</h3>
+        <p><code>we loadLocales</code></p>
+      </div>
+      <div class="col col-md-12">
+        <h3>6- Run!:</h3>
+        <p><code>we go</code></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="community">
+  <div class="container">
+    <hr>
+    <div class="row centered">
+      <h1>Suport and feedback</h1>
+      <p>Come and help make this project better!</p>
+      <br>
+      <br>
+      <div class="col-lg-4">
+        <a href="https://github.com/wejs/we-plugin-event" target="_blank"><img src="/public/project/images/github-128-128.jpg" alt="Github icon"></a>
+        <h3>Github</h3>
+        <p>Issues, reature requests and open source code, <a href="https://github.com/wejs/we-plugin-event" target="_blank">link</a>.</p>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://gitter.im/wejs/we" target="_blank"><img src="/public/project/images/gitter-128-128.jpg" alt="Gitter icon"></a>
+        <h3>Gitter</h3>
+        <p>Real time chat, come and talk, <a href="https://gitter.im/wejs/we" target="_blank">link</a>.</p>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://groups.google.com/forum/#!forum/we-js" target="_blank"><img src="/public/project/images/google_groups-128-128.jpg" alt="Google icon groups"></a>
+        <h3>Google groups</h3>
+        <p>Email group, <a href="https://groups.google.com/forum/#!forum/we-js" target="_blank">link</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>

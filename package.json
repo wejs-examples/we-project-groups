@@ -16,16 +16,19 @@
   "dependencies": {
     "async": "^1.5.1",
     "lodash": "^3.10.1",
+    "socket.io-redis": "^1.0.0",
     "we-core": "wejs/we-core#v1.0.0",
     "we-plugin-bootstrap3": "0.3.2",
     "we-plugin-file": "1.0.0",
-    "we-plugin-group": "wejs/we-plugin-group",
     "we-plugin-flag": "^1.0.0",
     "we-plugin-form": "wejs/we-plugin-form",
+    "we-plugin-group": "wejs/we-plugin-group",
     "we-plugin-menu": "^0.3.11",
+    "we-plugin-passport-oauth2": "^0.3.0",
+    "we-plugin-socketio": "^0.3.2",
     "we-plugin-vocabulary": "0.3.20",
     "we-theme-admin-default": "0.3.12",
-    "we-theme-default": "wejs/we-theme-default"
+    "we-theme-pratt": "^0.3.2"
   },
   "devDependencies": {
     "gulp": "3.9.0",
