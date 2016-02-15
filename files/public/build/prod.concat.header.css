@@ -15797,9 +15797,13 @@ button.note-editor .close {
 
   padding: 3px 10px;
 }
-
+/*
 .have-more-comments {
   border: inset 2px;
+}*/
+
+.comment-creator-avatar img {
+  margin: 0px 5px 3px 0px;
 }
 @charset "UTF-8";
 /*
@@ -16220,6 +16224,18 @@ button.note-editor .close {
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
+.main-menu-notification-link .main-menu-notification-text {
+  display: none;
+}
+
+.main-menu-notification-link.have-notifications .glyphicon{
+  color: red;
+}
+
+.main-menu-link-notification-count {
+  background-color: red;
+  color: #fff;
+}
 
 
 /* sharebox */
@@ -16264,9 +16280,10 @@ body.post.findOne .post-teaser {
 
 /* post teaser*/
 
-.post-teaser {,
-  padding: 5px 0px;
+.post-teaser {
+  padding: 8px;
   margin: 5px 0px 15px 5px;
+  background-color: #fff;
 }
 
 .highlighted {
@@ -16289,8 +16306,14 @@ body.post.findOne .post-teaser {
   margin-bottom: 5px;
 }
 
-.post-teaser .post-creator img {
+.post-creator img {
   vertical-align: top;
+  float: left;
+  margin: 0px 8px 3px 0px;
+}
+
+.post-creator {
+  min-height: 50px;
 }
 
 .post-actions {
@@ -16311,6 +16334,8 @@ body.post.findOne .post-teaser {
 .post-search {
   margin-bottom: 10px;
 }
+
+
 .groups-menu {
   margin: 5px 0px;
 }
@@ -16343,4 +16368,17 @@ body.post.findOne .post-teaser {
 
 .group-actions {
   margin-top: 8px;
+}
+
+.member-avatar img {
+  float: left;
+  margin: 0px 8px 3px 0px;
+}
+
+.member-username {
+  font-weight: bold;
+}
+
+.member-name {
+
 }

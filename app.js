@@ -4,6 +4,6 @@
 
 var we = require('we-core');
 
-we.go(function (err, we) {
+we.go(function (err) {
   if (err) return console.error(err);
 });
