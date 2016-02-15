@@ -22,6 +22,7 @@
     "we-plugin-file": "^1.0.2",
     "we-plugin-flag": "^1.0.2",
     "we-plugin-form": "^0.3.29",
+    "we-plugin-google-analytics": "^0.3.3",
     "we-plugin-group": "^0.3.1",
     "we-plugin-menu": "^0.3.11",
     "we-plugin-notification": "^0.3.1",
