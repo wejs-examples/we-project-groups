@@ -16,7 +16,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "socket.io-redis": "^1.0.0",
-    "we-core": "^0.3.119",
+    "we-core": "^0.3.120",
     "we-plugin-bootstrap3": "0.3.2",
     "we-plugin-comment": "^1.0.0",
     "we-plugin-file": "^1.0.2",
