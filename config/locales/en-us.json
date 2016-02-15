@@ -269,6 +269,7 @@
   "group.join.success": "Now you are member of {{group.name}} group",
   "group.leave": "Leave",
   "group.member.add.manager.role": "Set as manager",
+  "group.member.leave.last.member": "You cant leave this group because you are the last manager",
   "group.member.remove.manager.role": "Remove from managers",
   "group.member.removeRole.last.member": "You cant remove the manager role from last manager member in this group",
   "group.members": "members",
