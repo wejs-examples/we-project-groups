@@ -21,6 +21,7 @@
     "we-core": "^1.0.1-0",
     "we-plugin-bootstrap3": "0.3.2",
     "we-plugin-comment": "1.0.1",
+    "we-plugin-contact": "^1.0.0",
     "we-plugin-file": "1.0.3",
     "we-plugin-flag": "1.0.3",
     "we-plugin-form": "0.3.29",
