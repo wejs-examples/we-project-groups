@@ -16331,7 +16331,7 @@ body.post.findOne .post-teaser {
 
 .post-teaser {
   padding: 8px;
-  margin: 5px 0px 15px 5px;
+  margin: 0px 0px 15px 5px;
   background-color: #fff;
 }
 
@@ -16430,4 +16430,8 @@ body.post.findOne .post-teaser {
 
 .member-name {
 
+}
+
+.widget-group-description {
+  text-align: center;
 }
